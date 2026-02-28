@@ -12,6 +12,10 @@ export default {
         "2xl": "1400px",
       },
     },
+    fontFamily: {
+      display: ['Space Grotesk', 'system-ui', 'sans-serif'],
+      mono: ['JetBrains Mono', 'ui-monospace', 'monospace'],
+    },
     extend: {
       colors: {
         border: "hsl(var(--border))",
@@ -46,6 +50,13 @@ export default {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+        },
+        chart: {
+          edviron: "hsl(var(--chart-edviron))",
+          erp: "hsl(var(--chart-erp))",
+          success: "hsl(var(--chart-success))",
+          failed: "hsl(var(--chart-failed))",
+          pending: "hsl(var(--chart-pending))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
